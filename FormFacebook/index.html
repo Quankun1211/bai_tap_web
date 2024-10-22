@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1 class="title">facebook</h1>
+  <form method="" class="container">
+    <div class="wrap-header">
+      <h1>Tạo tài khoản mới</h1>
+      <p>Nhanh chóng và dễ dàng</p>
+    </div>
+
+    <div class="wrap-input">
+      <div class="wrap-icon-input ">
+        <input id="first-name" name="first-name" type="text" placeholder="Họ" class="input">
+        <div class="icon">!</div>
+      </div>
+      <div class="wrap-icon-input">
+        <input id="last-name" name="last-name" type="text" placeholder="Tên" class="input">
+        <div class="icon">!</div>
+      </div>
+    </div>
+    <div class="wrap-icon-input">
+      <input id="phone" name="phone" class="input-full input" type="text" placeholder="Số di động hoặc email">
+    </div>
+    <div class="wrap-icon-input">
+      <input id="password" name="password" class="input-full input" type="password" placeholder="Mật khẩu">
+    </div>
+    <!-- <span>Vui lòng nhập trường này</span> -->
+
+    <p class="title-input">Ngày sinh</p>
+    <div class="wrap-select">
+      <select name="day" id="select">
+        <option value="">Ngày</option>
+        <option value="1">Ngày 1</option>
+        <option value="2">Ngày 2</option>
+        <option value="3">Ngày 3</option>
+        <option value="4">Ngày 4</option>
+        <option value="5">Ngày 5</option>
+        <option value="6">Ngày 6</option>
+        <option value="31">Ngày 31</option>
+      </select>
+      <select name="month" id="select">
+        <option value="">Tháng</option>
+        <option value="1">Tháng 1</option>
+        <option value="2">Tháng 2</option>
+        <option value="3">Tháng 3</option>
+        <option value="...">...</option>
+        <option value="12">Tháng 12</option>
+      </select>
+      <select name="year" id="select">
+        <option value="">Năm</option>
+        <option value="2000">Năm 2000</option>
+        <option value="2001">Năm 2001</option>
+        <option value="2002">Năm 2002</option>
+        <option value="2003">Năm 2003</option>
+        <option value="...">...</option>
+        <option value="2024">Năm 2024</option>
+      </select>
+    </div>
+    <p class="title-input">Giới tính</p>
+    <div class="wrap-select">
+        <div class="select-sex">
+          <label for="male">Nam</label>
+          <input class="sex" id="male" name="male" type="checkbox">
+        </div>
+        <div class="select-sex">
+          <label for="female">Nữ</label>
+          <input class="sex" id="female" name="female" type="checkbox">
+        </div>
+        <div class="select-sex">
+          <label for="none">Tùy chọn</label>
+          <input class="sex" id="none" name="none" type="checkbox">
+        </div>
+    </div>
+    
+    <select name="" id="" class="text">
+      <option value="">Anh ấy: "Chúc anh ấy sinh nhật vui vẻ!"</option>
+      <option value="">Anh ấy: "Chúc anh ấy sinh nhật vui vẻ!"</option>
+    </select>
+    <p class="title-input">Danh xưng của bạn hiển thị với tất cả mọi người</p>
+    <div class="wrap-icon-input">
+      <input type="text" placeholder="Giới tính (không bắt buộc)" class="optional">
+    </div>
+
+    <p class="footer"></p>
+    <p class="footer"></p>
+
+    <div class="wrap-btn">
+      <button type="submit" class="submit-btn">Đăng ký</button>
+      <a href="">Bạn đã có tài khoản ư?</a>
+    </div>
+  </form>
+  
+  <script src="index.js"></script>
+</body>
+</html>
